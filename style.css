@@ -1,0 +1,132 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #f8f9fa;
+}
+
+.sidebar {
+    width: 150px;
+    background-color: rgb(235, 235, 235);
+    padding: 20px;
+    margin: 20px 0px 0px 20px;
+    min-height: 60vh;
+}
+
+.sidebar h5 {
+    font-size: 1.2rem;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 15px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 0.9rem;
+}
+
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+
+.profile-card {
+    margin: 30px 0px 0px -50px;
+}
+
+.about-me-card {
+    margin: 30px 20px 0px -30px;
+}
+
+.about-me-card p {
+    font-size: 0.9rem;
+}
+
+.card-title-about {
+    margin-left: 16px;
+    margin-top: 10px;
+    margin-bottom: -20px;
+    color: #000000;
+}
+
+.profile-card img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px; 
+    height: 150px;
+    border-radius: 50%; 
+    padding: 10px;
+}
+
+.profile-card .card-body {
+    text-align: center;
+}
+
+.profile-card h5 {
+    color: #000000;
+}
+
+.profile-card p {
+    font-size: 0.9rem;
+}
+
+.profile-card button {
+    font-size: 0.9rem; 
+}
+
+.recent-activity h6 {
+    color: #000000;
+    margin-top: 5px;
+}
+
+.recent-activity .list-group-item {
+    font-size: 0.9rem;
+}
+
+.recent-activity {
+    margin: 0px 0px 0px -30px;
+}
+
+.card-img-top {
+    height: 120px; 
+    object-fit: cover; 
+}
+
+.card-title {
+    font-size: 1rem;     
+    color: #000000;           
+    margin-bottom: 3px;  
+    text-align: left;     
+}
+
+.card-text {
+    text-align: justify;
+}
+
+.card .btn {
+    font-size: 0.9rem;  
+  }
+
+.card .card-text {
+    font-size: 0.9rem; 
+    line-height: 1.4;   
+}
+
+.card {
+    margin-right: 0px;
+}
+
+
+
+
